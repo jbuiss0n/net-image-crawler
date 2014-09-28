@@ -1,0 +1,10 @@
+*.suo
+*.user
+packages
+ImageCrawling.Api/Bin
+ImageCrawling.Api/Obj
+ImageCrawling.Console/Bin
+ImageCrawling.Console/Obj
+ImageCrawling.Job/Bin
+ImageCrawling.Job/Obj
+PublishScripts

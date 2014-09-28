@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCrawling.Api", "ImageCrawling.Api\ImageCrawling.Api.csproj", "{A668C6C2-641B-4F06-9C0C-ACFEB3C80E0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{39F9964F-C3B4-410B-9E20-C48C1CABFE73}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{2E620701-37BB-404F-8E02-454E63532F46}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\ImageCrawlingNet-WAWS-dev.json = PublishScripts\Configurations\ImageCrawlingNet-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCrawling.Job", "ImageCrawling.Job\ImageCrawling.Job.csproj", "{AF58F289-5856-4115-A81D-6DDE55DF455F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCrawling.Console", "ImageCrawling.Console\ImageCrawling.Console.csproj", "{11C0E828-AD2B-4C69-8503-D3F501D5B0FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A668C6C2-641B-4F06-9C0C-ACFEB3C80E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A668C6C2-641B-4F06-9C0C-ACFEB3C80E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A668C6C2-641B-4F06-9C0C-ACFEB3C80E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A668C6C2-641B-4F06-9C0C-ACFEB3C80E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF58F289-5856-4115-A81D-6DDE55DF455F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF58F289-5856-4115-A81D-6DDE55DF455F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF58F289-5856-4115-A81D-6DDE55DF455F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF58F289-5856-4115-A81D-6DDE55DF455F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C0E828-AD2B-4C69-8503-D3F501D5B0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C0E828-AD2B-4C69-8503-D3F501D5B0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C0E828-AD2B-4C69-8503-D3F501D5B0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C0E828-AD2B-4C69-8503-D3F501D5B0FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E620701-37BB-404F-8E02-454E63532F46} = {39F9964F-C3B4-410B-9E20-C48C1CABFE73}
+	EndGlobalSection
+EndGlobal
